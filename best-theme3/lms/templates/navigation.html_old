@@ -156,7 +156,7 @@ site_status_msg = get_site_status_msg(course_id)
 			  </li>
  	        	% else:
 			  <li class="item nav-global-04">
-				<a class="btn-neutral btn-register" style="padding:10px 20px;" href="http://mpp.squarenet.co.kr", target="_blank">공지사항</a> 
+				<a class="btn-neutral btn-register" style="padding:10px 20px;" href="/register${login_query()}">${_("")}</a>
 			  </li>
 			% endif
 		% endif
@@ -169,7 +169,7 @@ site_status_msg = get_site_status_msg(course_id)
               % endif
             % endif
           </li>										  
-<!-- Google Translator_api, 로그인, 공지사항-->
+<!-- Google Translator_api,로그인, 공지사항 -->
 
 		<div id="google_translate_element"></div><script type="text/javascript">
                   function googleTranslateElementInit() {new google.translate.TranslateElement({pageLanguage: 'ko', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');}
